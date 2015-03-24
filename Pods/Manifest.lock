@@ -1,0 +1,12 @@
+PODS:
+  - ALSystemUtilities (1.0):
+    - ALSystemUtilities/no-arc (= 1.0)
+  - ALSystemUtilities/no-arc (1.0)
+
+DEPENDENCIES:
+  - ALSystemUtilities
+
+SPEC CHECKSUMS:
+  ALSystemUtilities: 8ecc98f66b5e422cf48adb7624aafeba758c8e0e
+
+COCOAPODS: 0.36.0

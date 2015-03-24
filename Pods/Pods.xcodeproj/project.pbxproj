@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		009F07F0AEA103A4D1E40839 /* ALSystem_MemoryConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 04677909B3EF45BAB1C20B92 /* ALSystem_MemoryConstants.h */; };
+		01975E5EE246719F75CB7B48 /* ALProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8670CB46C4F91086EC1F27E4 /* ALProcessor.m */; };
+		02D14F382B96E2CD9FFD14D1 /* ALSystem_AccessoryConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = C4616EECB07C261305DAE939 /* ALSystem_AccessoryConstants.h */; };
+		0AE06A0D89162641F87ABF12 /* ALJailbreak.h in Headers */ = {isa = PBXBuildFile; fileRef = 95512A4EAACE4A62B5A4F6AE /* ALJailbreak.h */; };
+		0C8D862C92AF090A10AADCF8 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 435361C963CEB292D989375E /* Security.framework */; };
+		0CA39A883E2CB646247A2AA2 /* ALSystem_ALBatteryConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = E48D70C92C7D0006501A47FA /* ALSystem_ALBatteryConstants.h */; };
+		12C6EA1FB6143CA2833C0EE6 /* ALSystem_DiskConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = F1A7E1E4B683B443813BE0CF /* ALSystem_DiskConstants.h */; };
+		20F66ADB04E5A89F50D7343D /* ALMemory.m in Sources */ = {isa = PBXBuildFile; fileRef = BDD44DD5CFFA786400067526 /* ALMemory.m */; };
+		25630649356B4E6DB14442DD /* ALSystem_HardwareConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = A0997F9DBED19B3C7966F193 /* ALSystem_HardwareConstants.h */; };
+		27868C73AE91F11319768C0B /* ALBattery.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CCA3BEFE37399F5B00E994 /* ALBattery.m */; };
+		29877B8EFCDC683EA2A63FDF /* ALSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = E3A09CF73A4CF8AAA4395E33 /* ALSystem.m */; };
+		2BFE7750DD6B7CE056C7AE76 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 04663D2D1EA1D1B286C7F623 /* Reachability.h */; };
+		2E50F85663EF48ABE1B3FE62 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C744A06467AA0C9ADEBFA90 /* AudioToolbox.framework */; };
+		3E6BC598696DE282AD47FA86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CCA5F148C3C60AE9D70D3C9 /* Foundation.framework */; };
+		499128834E1D6A77CB359EE1 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ED2F03A1C7D024CA594CB3C /* ExternalAccessory.framework */; };
+		4A488FBCB6A53D0934C34FA9 /* ALHardware.m in Sources */ = {isa = PBXBuildFile; fileRef = DBE7E63B84F5AB2816636508 /* ALHardware.m */; };
+		4AE13338925F91243DAEDA02 /* ALSystem_ProcessorConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 8927F54F1449EEE8CB5DF813 /* ALSystem_ProcessorConstants.h */; };
+		4E27D0D8B44B032568E77C34 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C0560BD63D71D6CD0BA3964 /* CFNetwork.framework */; };
+		4F4D2564B0F9577FA8C06FF0 /* ALMemory.h in Headers */ = {isa = PBXBuildFile; fileRef = 98CDED3B33ABD61ABC9D660E /* ALMemory.h */; };
+		52811BB952C1C0BC7F2B132A /* ALSystemConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 76592E3888E372EA7ACC6E6A /* ALSystemConstants.h */; };
+		56B4C5B52EB57F9109FFE9D5 /* ALHardware.h in Headers */ = {isa = PBXBuildFile; fileRef = 72CCC98A34041157839829D3 /* ALHardware.h */; };
+		5CB0D11AF1D5AAEBF5358EAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CCA5F148C3C60AE9D70D3C9 /* Foundation.framework */; };
+		67A2404C8EA0D506D2F56A6B /* ALSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = 15B9A8B189D56D31CD0DEE5C /* ALSystem.h */; };
+		6E450EF6D8B904F52C7B7F31 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F4D1744AD69FE7ACE9D588F /* CoreFoundation.framework */; };
+		7FEF21208B3A509244469962 /* ALDisk.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E6B3A3B647CAF1F87B2ABE /* ALDisk.m */; };
+		83C3BEF21FEE30B51A5A0FA6 /* ALSystem_CarrierConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 79BEFC15B05D78359E7C1379 /* ALSystem_CarrierConstants.h */; };
+		8564CBC5E003550B9A1899E3 /* ALSystem_NetworkConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 62C5B9090319C34B8B24238E /* ALSystem_NetworkConstants.h */; };
+		92F6F2701389D41495FE9217 /* ALProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BD08527A432BDA51D7C3847 /* ALProcessor.h */; };
+		93D7D77B6CDC380D173A151B /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E90EFF0EABC7464CC26A181 /* Pods-dummy.m */; };
+		9811291465A85B9F7F46EAC6 /* ALNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B1CA63BCEAEBC5DD1AA2FFE /* ALNetwork.m */; };
+		A9D6173986355248A662D99A /* ALAccessory.m in Sources */ = {isa = PBXBuildFile; fileRef = 635D49BB5BAA35DA727876E4 /* ALAccessory.m */; };
+		B3B2031A001CA51E49CBF5D0 /* ALJailbreak.m in Sources */ = {isa = PBXBuildFile; fileRef = 5233BB5E56F385B438E080E0 /* ALJailbreak.m */; };
+		B99E462A9790B6B4836EF167 /* ALSystem_LocalizationConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 7717112C3EA89243A752FA2C /* ALSystem_LocalizationConstants.h */; };
+		BB1F2D3CD705A72F49E9F2F1 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2C306B70A6912F4FF848C82 /* CoreTelephony.framework */; };
+		BCFB23F8B929CB0DD385861B /* ALLocalization.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DB603AEC030A43928E3E0FD /* ALLocalization.h */; };
+		C1BBD499E65097FD0DBEE02E /* ALDisk.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B0A639786C250BC185398AD /* ALDisk.h */; };
+		C41424EE6F1808581CEC050C /* ALLocalization.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6E7912857A11919596649A /* ALLocalization.m */; };
+		C4CC5510F97730933E3C6AB9 /* ALCarrier.h in Headers */ = {isa = PBXBuildFile; fileRef = 3444135300EE5B033AA9D9F0 /* ALCarrier.h */; };
+		C57376B501EA2CD5F1B2E831 /* ALBattery.h in Headers */ = {isa = PBXBuildFile; fileRef = D540B9F01E1704302DCAB041 /* ALBattery.h */; };
+		C732FEF05FCDFDE4CD851D43 /* ALSystem_JailbreakConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = EB3358F81DAE680789690436 /* ALSystem_JailbreakConstants.h */; };
+		CAEF6216031A56B07835FFB8 /* Pods-ALSystemUtilities-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C271049D82D01A72E4B0C93 /* Pods-ALSystemUtilities-dummy.m */; };
+		D29989D36C8824E953858B6E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37558540E1E2BAFBECBB4892 /* CoreGraphics.framework */; };
+		D94A0D8CD9BE92C22DC77515 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E4158FD26B62BDB02DD8DD /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EADDD29A62BF1F19705E16DE /* ALAccessory.h in Headers */ = {isa = PBXBuildFile; fileRef = 654D635ECB46E38FE764B460 /* ALAccessory.h */; };
+		EB58AE4CC5D366BD18FA9131 /* ALCarrier.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB375163238F38D62A889B0 /* ALCarrier.m */; };
+		F9A219ABF02990756886CA83 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 811E9347EA533144A6960104 /* SystemConfiguration.framework */; };
+		FFCCFF5D74C4DD72295F4459 /* ALNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 74A8071D3A42D0F8EC132494 /* ALNetwork.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4334FE2147E74034FA0542B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F80A79207BE02B3F18DF31A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84290B8B2C8F075A1E6ABE2B;
+			remoteInfo = "Pods-ALSystemUtilities";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04663D2D1EA1D1B286C7F623 /* Reachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = ALSystemUtilities/ALSystemUtilities/Reachability/Reachability.h; sourceTree = "<group>"; };
+		04677909B3EF45BAB1C20B92 /* ALSystem_MemoryConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ALSystem_MemoryConstants.h; path = ALSystemUtilities/ALSystemUtilities/ALSystemConstants/ALSystem_MemoryConstants.h; sourceTree = "<group>"; };
+		0B0A639786C250BC185398AD /* ALDisk.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ALDisk.h; path = ALSystemUtilities/ALSystemUtilities/ALDisk/ALDisk.h; sourceTree = "<group>"; };
+		0BD08527A432BDA51D7C3847 /* ALProcessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ALProcessor.h; path = ALSystemUtilities/ALSystemUtilities/ALProcessor/ALProcessor.h; sourceTree = "<group>"; };
+		0C0560BD63D71D6CD0BA3964 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		15B9A8B189D56D31CD0DEE5C /* ALSystem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ALSystem.h; path = ALSystemUtilities/ALSystemUtilities/ALSystem.h; sourceTree = "<group>"; };
+		165048C4AF06A72DF5563E62 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1DB375163238F38D62A889B0 /* ALCarrier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ALCarrier.m; path = ALSystemUtilities/ALSystemUtilities/ALCarrier/ALCarrier.m; sourceTree = "<group>"; };
+		28811CBF5E9714CD6B1F460B /* Pods-ALSystemUtilities.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ALSystemUtilities.xcconfig"; sourceTree = "<group>"; };
+		2AFC1AB6E5CBAC799355CD5B /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		2DB1D717840D9C2DB312C423 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		3444135300EE5B033AA9D9F0 /* ALCarrier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ALCarrier.h; path = ALSystemUtilities/ALSystemUtilities/ALCarrier/ALCarrier.h; sourceTree = "<group>"; };
+		348E4B3AAC96DA0C68CEE3C4 /* Pods-ALSystemUtilities-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ALSystemUtilities-prefix.pch"; sourceTree = "<group>"; };
+		37558540E1E2BAFBECBB4892 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		3C271049D82D01A72E4B0C93 /* Pods-ALSystemUtilities-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ALSystemUtilities-dummy.m"; sourceTree = "<group>"; };
+		3CCA5F148C3C60AE9D70D3C9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3F4D1744AD69FE7ACE9D588F /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		435361C963CEB292D989375E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		44CCA3BEFE37399F5B00E994 /* ALBattery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ALBattery.m; path = ALSystemUtilities/ALSystemUtilities/ALBattery/ALBattery.m; sourceTree = "<group>"; };
+		4C6E7912857A11919596649A /* ALLocalization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ALLocalization.m; path = ALSystemUtilities/ALSystemUtilities/ALLocalization/ALLocalization.m; sourceTree = "<group>"; };
+		4C744A06467AA0C9ADEBFA90 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
+		5233BB5E56F385B438E080E0 /* ALJailbreak.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ALJailbreak.m; path = ALSystemUtilities/ALSystemUtilities/ALJailbreak/ALJailbreak.m; sourceTree = "<group>"; };
+		5E90EFF0EABC7464CC26A181 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		62C5B9090319C34B8B24238E /* ALSystem_NetworkConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ALSystem_NetworkConstants.h; path = ALSystemUtilities/ALSystemUtilities/ALSystemConstants/ALSystem_NetworkConstants.h; sourceTree = "<group>"; };
+		635D49BB5BAA35DA727876E4 /* ALAccessory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ALAccessory.m; path = ALSystemUtilities/ALSystemUtilities/ALAccessory/ALAccessory.m; sourceTree = "<group>"; };
+		654D635ECB46E38FE764B460 /* ALAccessory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ALAccessory.h; path = ALSystemUtilities/ALSystemUtilities/ALAccessory/ALAccessory.h; sourceTree = "<group>"; };
+		6ED2F03A1C7D024CA594CB3C /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/ExternalAccessory.framework; sourceTree = DEVELOPER_DIR; };
+		6F372E5EA983C9DC63D5855E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		70C33E75CFD901B2CF1B97FD /* Pods-ALSystemUtilities-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ALSystemUtilities-Private.xcconfig"; sourceTree = "<group>"; };
+		72CCC98A34041157839829D3 /* ALHardware.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ALHardware.h; path = ALSystemUtilities/ALSystemUtilities/ALHardware/ALHardware.h; sourceTree = "<group>"; };
+		74A8071D3A42D0F8EC132494 /* ALNetwork.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ALNetwork.h; path = ALSystemUtilities/ALSystemUtilities/ALNetwork/ALNetwork.h; sourceTree = "<group>"; };
+		7644070C8FAC42D2A6F7BAC4 /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		76592E3888E372EA7ACC6E6A /* ALSystemConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ALSystemConstants.h; path = ALSystemUtilities/ALSystemUtilities/ALSystemConstants/ALSystemConstants.h; sourceTree = "<group>"; };
+		7717112C3EA89243A752FA2C /* ALSystem_LocalizationConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ALSystem_LocalizationConstants.h; path = ALSystemUtilities/ALSystemUtilities/ALSystemConstants/ALSystem_LocalizationConstants.h; sourceTree = "<group>"; };
+		79BEFC15B05D78359E7C1379 /* ALSystem_CarrierConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ALSystem_CarrierConstants.h; path = ALSystemUtilities/ALSystemUtilities/ALSystemConstants/ALSystem_CarrierConstants.h; sourceTree = "<group>"; };
+		805EB6B909A42D2456D31CBC /* libPods-ALSystemUtilities.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ALSystemUtilities.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		811E9347EA533144A6960104 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		8670CB46C4F91086EC1F27E4 /* ALProcessor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ALProcessor.m; path = ALSystemUtilities/ALSystemUtilities/ALProcessor/ALProcessor.m; sourceTree = "<group>"; };
+		8927F54F1449EEE8CB5DF813 /* ALSystem_ProcessorConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ALSystem_ProcessorConstants.h; path = ALSystemUtilities/ALSystemUtilities/ALSystemConstants/ALSystem_ProcessorConstants.h; sourceTree = "<group>"; };
+		953D27F7445207A2D0768C07 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95512A4EAACE4A62B5A4F6AE /* ALJailbreak.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ALJailbreak.h; path = ALSystemUtilities/ALSystemUtilities/ALJailbreak/ALJailbreak.h; sourceTree = "<group>"; };
+		98CDED3B33ABD61ABC9D660E /* ALMemory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ALMemory.h; path = ALSystemUtilities/ALSystemUtilities/ALMemory/ALMemory.h; sourceTree = "<group>"; };
+		9B1CA63BCEAEBC5DD1AA2FFE /* ALNetwork.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ALNetwork.m; path = ALSystemUtilities/ALSystemUtilities/ALNetwork/ALNetwork.m; sourceTree = "<group>"; };
+		9DB603AEC030A43928E3E0FD /* ALLocalization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ALLocalization.h; path = ALSystemUtilities/ALSystemUtilities/ALLocalization/ALLocalization.h; sourceTree = "<group>"; };
+		A0997F9DBED19B3C7966F193 /* ALSystem_HardwareConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ALSystem_HardwareConstants.h; path = ALSystemUtilities/ALSystemUtilities/ALSystemConstants/ALSystem_HardwareConstants.h; sourceTree = "<group>"; };
+		A0E4158FD26B62BDB02DD8DD /* Reachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = ALSystemUtilities/ALSystemUtilities/Reachability/Reachability.m; sourceTree = "<group>"; };
+		A8E6B3A3B647CAF1F87B2ABE /* ALDisk.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ALDisk.m; path = ALSystemUtilities/ALSystemUtilities/ALDisk/ALDisk.m; sourceTree = "<group>"; };
+		BDD44DD5CFFA786400067526 /* ALMemory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ALMemory.m; path = ALSystemUtilities/ALSystemUtilities/ALMemory/ALMemory.m; sourceTree = "<group>"; };
+		C4616EECB07C261305DAE939 /* ALSystem_AccessoryConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ALSystem_AccessoryConstants.h; path = ALSystemUtilities/ALSystemUtilities/ALSystemConstants/ALSystem_AccessoryConstants.h; sourceTree = "<group>"; };
+		D2C306B70A6912F4FF848C82 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		D540B9F01E1704302DCAB041 /* ALBattery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ALBattery.h; path = ALSystemUtilities/ALSystemUtilities/ALBattery/ALBattery.h; sourceTree = "<group>"; };
+		DBE7E63B84F5AB2816636508 /* ALHardware.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ALHardware.m; path = ALSystemUtilities/ALSystemUtilities/ALHardware/ALHardware.m; sourceTree = "<group>"; };
+		E23E174E977AC7FE0BC56D75 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3A09CF73A4CF8AAA4395E33 /* ALSystem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ALSystem.m; path = ALSystemUtilities/ALSystemUtilities/ALSystem.m; sourceTree = "<group>"; };
+		E48D70C92C7D0006501A47FA /* ALSystem_ALBatteryConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ALSystem_ALBatteryConstants.h; path = ALSystemUtilities/ALSystemUtilities/ALSystemConstants/ALSystem_ALBatteryConstants.h; sourceTree = "<group>"; };
+		EB3358F81DAE680789690436 /* ALSystem_JailbreakConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ALSystem_JailbreakConstants.h; path = ALSystemUtilities/ALSystemUtilities/ALSystemConstants/ALSystem_JailbreakConstants.h; sourceTree = "<group>"; };
+		EC712AB457B70BD4276F1A31 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		F1A7E1E4B683B443813BE0CF /* ALSystem_DiskConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ALSystem_DiskConstants.h; path = ALSystemUtilities/ALSystemUtilities/ALSystemConstants/ALSystem_DiskConstants.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5DA2A55D90AB842E0182B4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E50F85663EF48ABE1B3FE62 /* AudioToolbox.framework in Frameworks */,
+				4E27D0D8B44B032568E77C34 /* CFNetwork.framework in Frameworks */,
+				6E450EF6D8B904F52C7B7F31 /* CoreFoundation.framework in Frameworks */,
+				D29989D36C8824E953858B6E /* CoreGraphics.framework in Frameworks */,
+				BB1F2D3CD705A72F49E9F2F1 /* CoreTelephony.framework in Frameworks */,
+				499128834E1D6A77CB359EE1 /* ExternalAccessory.framework in Frameworks */,
+				5CB0D11AF1D5AAEBF5358EAD /* Foundation.framework in Frameworks */,
+				0C8D862C92AF090A10AADCF8 /* Security.framework in Frameworks */,
+				F9A219ABF02990756886CA83 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4D5C05F9D49E7FA84953F2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E6BC598696DE282AD47FA86 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00F202CA86AC15B715F4B4F5 = {
+			isa = PBXGroup;
+			children = (
+				953D27F7445207A2D0768C07 /* Podfile */,
+				D7320B80156B31A9242BF72A /* Frameworks */,
+				2D47C710A2FD693EB583A8FD /* Pods */,
+				2C75879A73EC9B95B0241668 /* Products */,
+				4DD03CFAC71B643F243D858C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		2C75879A73EC9B95B0241668 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E23E174E977AC7FE0BC56D75 /* libPods.a */,
+				805EB6B909A42D2456D31CBC /* libPods-ALSystemUtilities.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D47C710A2FD693EB583A8FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9572EF6AE03A789531F41D5F /* ALSystemUtilities */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4DD03CFAC71B643F243D858C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A58FFE8B85DD41178DB1ABB4 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8C09D36CAC798392B79FB499 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4C744A06467AA0C9ADEBFA90 /* AudioToolbox.framework */,
+				0C0560BD63D71D6CD0BA3964 /* CFNetwork.framework */,
+				3F4D1744AD69FE7ACE9D588F /* CoreFoundation.framework */,
+				37558540E1E2BAFBECBB4892 /* CoreGraphics.framework */,
+				D2C306B70A6912F4FF848C82 /* CoreTelephony.framework */,
+				6ED2F03A1C7D024CA594CB3C /* ExternalAccessory.framework */,
+				3CCA5F148C3C60AE9D70D3C9 /* Foundation.framework */,
+				435361C963CEB292D989375E /* Security.framework */,
+				811E9347EA533144A6960104 /* SystemConfiguration.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9572EF6AE03A789531F41D5F /* ALSystemUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				654D635ECB46E38FE764B460 /* ALAccessory.h */,
+				635D49BB5BAA35DA727876E4 /* ALAccessory.m */,
+				D540B9F01E1704302DCAB041 /* ALBattery.h */,
+				44CCA3BEFE37399F5B00E994 /* ALBattery.m */,
+				3444135300EE5B033AA9D9F0 /* ALCarrier.h */,
+				1DB375163238F38D62A889B0 /* ALCarrier.m */,
+				0B0A639786C250BC185398AD /* ALDisk.h */,
+				A8E6B3A3B647CAF1F87B2ABE /* ALDisk.m */,
+				72CCC98A34041157839829D3 /* ALHardware.h */,
+				DBE7E63B84F5AB2816636508 /* ALHardware.m */,
+				95512A4EAACE4A62B5A4F6AE /* ALJailbreak.h */,
+				5233BB5E56F385B438E080E0 /* ALJailbreak.m */,
+				9DB603AEC030A43928E3E0FD /* ALLocalization.h */,
+				4C6E7912857A11919596649A /* ALLocalization.m */,
+				98CDED3B33ABD61ABC9D660E /* ALMemory.h */,
+				BDD44DD5CFFA786400067526 /* ALMemory.m */,
+				74A8071D3A42D0F8EC132494 /* ALNetwork.h */,
+				9B1CA63BCEAEBC5DD1AA2FFE /* ALNetwork.m */,
+				0BD08527A432BDA51D7C3847 /* ALProcessor.h */,
+				8670CB46C4F91086EC1F27E4 /* ALProcessor.m */,
+				15B9A8B189D56D31CD0DEE5C /* ALSystem.h */,
+				E3A09CF73A4CF8AAA4395E33 /* ALSystem.m */,
+				76592E3888E372EA7ACC6E6A /* ALSystemConstants.h */,
+				E48D70C92C7D0006501A47FA /* ALSystem_ALBatteryConstants.h */,
+				C4616EECB07C261305DAE939 /* ALSystem_AccessoryConstants.h */,
+				79BEFC15B05D78359E7C1379 /* ALSystem_CarrierConstants.h */,
+				F1A7E1E4B683B443813BE0CF /* ALSystem_DiskConstants.h */,
+				A0997F9DBED19B3C7966F193 /* ALSystem_HardwareConstants.h */,
+				EB3358F81DAE680789690436 /* ALSystem_JailbreakConstants.h */,
+				7717112C3EA89243A752FA2C /* ALSystem_LocalizationConstants.h */,
+				04677909B3EF45BAB1C20B92 /* ALSystem_MemoryConstants.h */,
+				62C5B9090319C34B8B24238E /* ALSystem_NetworkConstants.h */,
+				8927F54F1449EEE8CB5DF813 /* ALSystem_ProcessorConstants.h */,
+				E483FEDF19E1BE0CADBEA2FD /* Support Files */,
+				DB07A248873C4F186C61856A /* no-arc */,
+			);
+			path = ALSystemUtilities;
+			sourceTree = "<group>";
+		};
+		A58FFE8B85DD41178DB1ABB4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				165048C4AF06A72DF5563E62 /* Pods-acknowledgements.markdown */,
+				EC712AB457B70BD4276F1A31 /* Pods-acknowledgements.plist */,
+				5E90EFF0EABC7464CC26A181 /* Pods-dummy.m */,
+				7644070C8FAC42D2A6F7BAC4 /* Pods-environment.h */,
+				2AFC1AB6E5CBAC799355CD5B /* Pods-resources.sh */,
+				2DB1D717840D9C2DB312C423 /* Pods.debug.xcconfig */,
+				6F372E5EA983C9DC63D5855E /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		D7320B80156B31A9242BF72A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C09D36CAC798392B79FB499 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB07A248873C4F186C61856A /* no-arc */ = {
+			isa = PBXGroup;
+			children = (
+				04663D2D1EA1D1B286C7F623 /* Reachability.h */,
+				A0E4158FD26B62BDB02DD8DD /* Reachability.m */,
+			);
+			name = "no-arc";
+			sourceTree = "<group>";
+		};
+		E483FEDF19E1BE0CADBEA2FD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				28811CBF5E9714CD6B1F460B /* Pods-ALSystemUtilities.xcconfig */,
+				70C33E75CFD901B2CF1B97FD /* Pods-ALSystemUtilities-Private.xcconfig */,
+				3C271049D82D01A72E4B0C93 /* Pods-ALSystemUtilities-dummy.m */,
+				348E4B3AAC96DA0C68CEE3C4 /* Pods-ALSystemUtilities-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-ALSystemUtilities";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5237638F49EF9165378C5C56 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EADDD29A62BF1F19705E16DE /* ALAccessory.h in Headers */,
+				C57376B501EA2CD5F1B2E831 /* ALBattery.h in Headers */,
+				C4CC5510F97730933E3C6AB9 /* ALCarrier.h in Headers */,
+				C1BBD499E65097FD0DBEE02E /* ALDisk.h in Headers */,
+				56B4C5B52EB57F9109FFE9D5 /* ALHardware.h in Headers */,
+				0AE06A0D89162641F87ABF12 /* ALJailbreak.h in Headers */,
+				BCFB23F8B929CB0DD385861B /* ALLocalization.h in Headers */,
+				4F4D2564B0F9577FA8C06FF0 /* ALMemory.h in Headers */,
+				FFCCFF5D74C4DD72295F4459 /* ALNetwork.h in Headers */,
+				92F6F2701389D41495FE9217 /* ALProcessor.h in Headers */,
+				67A2404C8EA0D506D2F56A6B /* ALSystem.h in Headers */,
+				52811BB952C1C0BC7F2B132A /* ALSystemConstants.h in Headers */,
+				0CA39A883E2CB646247A2AA2 /* ALSystem_ALBatteryConstants.h in Headers */,
+				02D14F382B96E2CD9FFD14D1 /* ALSystem_AccessoryConstants.h in Headers */,
+				83C3BEF21FEE30B51A5A0FA6 /* ALSystem_CarrierConstants.h in Headers */,
+				12C6EA1FB6143CA2833C0EE6 /* ALSystem_DiskConstants.h in Headers */,
+				25630649356B4E6DB14442DD /* ALSystem_HardwareConstants.h in Headers */,
+				C732FEF05FCDFDE4CD851D43 /* ALSystem_JailbreakConstants.h in Headers */,
+				B99E462A9790B6B4836EF167 /* ALSystem_LocalizationConstants.h in Headers */,
+				009F07F0AEA103A4D1E40839 /* ALSystem_MemoryConstants.h in Headers */,
+				8564CBC5E003550B9A1899E3 /* ALSystem_NetworkConstants.h in Headers */,
+				4AE13338925F91243DAEDA02 /* ALSystem_ProcessorConstants.h in Headers */,
+				2BFE7750DD6B7CE056C7AE76 /* Reachability.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		24A2B048019A9F0F5E685791 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F59AEDDAE98D4E4CF0292D1 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				B5C1C6165C2828DFDA8093AE /* Sources */,
+				F4D5C05F9D49E7FA84953F2E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B398E9525F8460103634D7E /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = E23E174E977AC7FE0BC56D75 /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		84290B8B2C8F075A1E6ABE2B /* Pods-ALSystemUtilities */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DD623B8F28CF168CCF60A62 /* Build configuration list for PBXNativeTarget "Pods-ALSystemUtilities" */;
+			buildPhases = (
+				055D7131B7962F2A036CA4BF /* Sources */,
+				B5DA2A55D90AB842E0182B4A /* Frameworks */,
+				5237638F49EF9165378C5C56 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ALSystemUtilities";
+			productName = "Pods-ALSystemUtilities";
+			productReference = 805EB6B909A42D2456D31CBC /* libPods-ALSystemUtilities.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F80A79207BE02B3F18DF31A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 26D07D8A6D52C540F39195F3 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 00F202CA86AC15B715F4B4F5;
+			productRefGroup = 2C75879A73EC9B95B0241668 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24A2B048019A9F0F5E685791 /* Pods */,
+				84290B8B2C8F075A1E6ABE2B /* Pods-ALSystemUtilities */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		055D7131B7962F2A036CA4BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9D6173986355248A662D99A /* ALAccessory.m in Sources */,
+				27868C73AE91F11319768C0B /* ALBattery.m in Sources */,
+				EB58AE4CC5D366BD18FA9131 /* ALCarrier.m in Sources */,
+				7FEF21208B3A509244469962 /* ALDisk.m in Sources */,
+				4A488FBCB6A53D0934C34FA9 /* ALHardware.m in Sources */,
+				B3B2031A001CA51E49CBF5D0 /* ALJailbreak.m in Sources */,
+				C41424EE6F1808581CEC050C /* ALLocalization.m in Sources */,
+				20F66ADB04E5A89F50D7343D /* ALMemory.m in Sources */,
+				9811291465A85B9F7F46EAC6 /* ALNetwork.m in Sources */,
+				01975E5EE246719F75CB7B48 /* ALProcessor.m in Sources */,
+				29877B8EFCDC683EA2A63FDF /* ALSystem.m in Sources */,
+				CAEF6216031A56B07835FFB8 /* Pods-ALSystemUtilities-dummy.m in Sources */,
+				D94A0D8CD9BE92C22DC77515 /* Reachability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5C1C6165C2828DFDA8093AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93D7D77B6CDC380D173A151B /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B398E9525F8460103634D7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ALSystemUtilities";
+			target = 84290B8B2C8F075A1E6ABE2B /* Pods-ALSystemUtilities */;
+			targetProxy = 4334FE2147E74034FA0542B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25B4C86D5ED1968625E97F32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70C33E75CFD901B2CF1B97FD /* Pods-ALSystemUtilities-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-ALSystemUtilities/Pods-ALSystemUtilities-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		280DEE3ADF2C7F6992ADBD8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7901338D6D047F40ED8B5A74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7921AE8B5A60FF5E59EC1578 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F372E5EA983C9DC63D5855E /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		877088B5F2D7EB7E03571D7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70C33E75CFD901B2CF1B97FD /* Pods-ALSystemUtilities-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-ALSystemUtilities/Pods-ALSystemUtilities-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		ED223B1CCE22712E3521EAAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DB1D717840D9C2DB312C423 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26D07D8A6D52C540F39195F3 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				280DEE3ADF2C7F6992ADBD8A /* Debug */,
+				7901338D6D047F40ED8B5A74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F59AEDDAE98D4E4CF0292D1 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED223B1CCE22712E3521EAAB /* Debug */,
+				7921AE8B5A60FF5E59EC1578 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DD623B8F28CF168CCF60A62 /* Build configuration list for PBXNativeTarget "Pods-ALSystemUtilities" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				877088B5F2D7EB7E03571D7C /* Debug */,
+				25B4C86D5ED1968625E97F32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F80A79207BE02B3F18DF31A4 /* Project object */;
+}
